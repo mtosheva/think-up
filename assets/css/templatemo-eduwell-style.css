@@ -1908,3 +1908,8 @@ body {
     font-size: 22px;
   }
 }
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
