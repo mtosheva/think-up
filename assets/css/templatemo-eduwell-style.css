@@ -983,7 +983,7 @@ section.simple-cta h6 {
 }
 
 section.simple-cta h4 {
-  font-size: 62px;
+  font-size: 35px;
   font-weight: 900;
   color: #fff;
   line-height: 74px;
@@ -1668,6 +1668,7 @@ section.more-info .section-heading {
 
 section.more-info p {
   margin-bottom: 40px;
+  text-align:justify;
 }
 
 section.more-info ul li {
