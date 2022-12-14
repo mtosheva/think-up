@@ -570,7 +570,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #dc8cdb!important;
+    color: #01adea!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -630,7 +630,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #dc8cdb!important;
+    color: #01adea!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -690,6 +690,7 @@ section.main-banner {
   /* margin-left: 120px; */
   position: relative;
   z-index: 2;
+  border-top: 1px solid #b4bab0
 }
 
 .main-banner .right-image img {
@@ -890,11 +891,13 @@ section.our-courses ul.nacc li .left-image {
   margin-right: 50px;
   top: 50%;
   transform: translateY(-50%);
+  width: 300px;
 }
 
 section.our-courses ul.nacc li .left-image img {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  padding: 10px;;
 }
 
 section.our-courses ul.nacc li .left-image .price h6 {
@@ -1592,6 +1595,14 @@ our services page
 ---------------------------------------------
 */
 
+.info-item > img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 15px;
+}
+
 section.featured-product {
   position: relative;
 }
@@ -1898,6 +1909,7 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     transform: translateY(-0%);
+    width: 100%;
   }
   section.our-courses ul.nacc li .left-image img,
   section.our-team ul.nacc li .right-image img {
