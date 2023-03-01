@@ -882,7 +882,7 @@ section.our-courses ul.nacc li {
   list-style: none;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
   border-radius: 15px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
   padding-right: 50px;
 }
 
