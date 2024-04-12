@@ -2011,3 +2011,23 @@ a.disabled {
   pointer-events: none;
   cursor: default;
 }
+
+.circle-image > img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.circle-image {
+  display: flex;
+  justify-content: center;
+}
+
+.text p {
+  color: white;
+}
+
+.fa {
+  font-size: initial !important;
+}

@@ -137,7 +137,7 @@ body {
 .slideshow .slide .title {
   margin: 0 auto 15px;
   max-width: 1000px;
-  font: 300 41.6666666667px "Oswald", sans-serif;
+  font: 300 25px "Oswald", sans-serif;
   letter-spacing: 0.35em;
   text-transform: uppercase;
 }
@@ -147,6 +147,11 @@ body {
   font-size: 18px;
   line-height: 1.4;
 }
+
+.text p {
+  font-size: 22px;
+}
+
 .slideshow .slide .btn {
   margin: 15px 0 0;
   border-color: #fff;
