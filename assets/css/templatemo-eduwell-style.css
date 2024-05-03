@@ -991,11 +991,11 @@ section.our-courses ul.nacc li .left-image {
   width: 300px;
 }
 
-section.our-courses ul.nacc li .left-image img {
+/* section.our-courses ul.nacc li .left-image img {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   padding: 10px;
-}
+} */
 
 section.our-courses ul.nacc li .left-image .price h6 {
   position: absolute;
@@ -2492,4 +2492,8 @@ a.disabled {
 
 .m-t-0 {
   margin-top: 0;
+}
+
+.t-a-e {
+  text-align: end;
 }
